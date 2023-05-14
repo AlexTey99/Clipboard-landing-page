@@ -63,3 +63,34 @@ body{
     text-align: center;
     width: 550px;
 }
+.midle-container{
+    display: flex;
+    margin-top: 50px;
+    width: 100vw;
+}
+.tv-image{
+    width: 680px;
+}
+.three-titles{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.n1{
+    width: 300px;
+    margin-top: 10px;
+}
+.n2{
+    width: 300px;
+    margin-top: 10px;
+}
+.n3{
+    width: 300px;
+    margin-top: 10px;
+}
+
+.Cloud-Sync{
+    margin-top: 60px;
+}
+.Complete-History{
+    margin-top: 60px;
+}
