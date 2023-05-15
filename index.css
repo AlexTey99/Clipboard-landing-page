@@ -94,3 +94,73 @@ body{
 .Complete-History{
     margin-top: 60px;
 }
+.third-tittle{
+    margin-top: 100px;
+}
+.third-paragraph{
+    text-align: center;
+    width: 530px;
+}
+.second-image{
+    margin-top: 50px;
+    width: 650px;
+}
+
+.logo-container{
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+}
+.paragraph-blacklist{
+    width: 300px;
+}
+.paragraph-text{
+    width: 310px;
+}
+.paragraph-preview{
+    width: 310px;
+}
+.firs-container{
+    margin-right: 30px;
+}
+.second-container{
+    margin-right: 30px;
+}
+
+.web-container{
+    display: flex;
+    margin-top: 100px;
+    gap: 70px;
+}
+.Clipboard{
+    margin-top: 100px;
+}
+.end-paragraph{
+    width: 520px;
+    text-align: center;
+}
+.end-buttoms{
+    display: flex;
+    margin-top: 30px;
+}
+.end-left-buttom{
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 160px;
+    height: 40px;
+    background: hsl(171, 66%, 44%);
+}
+.end-left-buttom:hover{
+    cursor: pointer;
+}
+.end-rigth-buttom{
+    border: none;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    background: hsl(233, 100%, 69%);
+}
+.end-rigth-buttom:hover{
+    cursor: pointer;
+}
