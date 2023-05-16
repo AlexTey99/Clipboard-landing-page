@@ -8,6 +8,7 @@ body{
     justify-content: center;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 .main-container{
     display: flex;
@@ -162,5 +163,50 @@ body{
     background: hsl(233, 100%, 69%);
 }
 .end-rigth-buttom:hover{
+    cursor: pointer;
+}
+.last-container{
+    display: flex;
+    padding: 50px;
+    margin-top: 110px;
+    height: 150px;
+    width: 100vw;
+    gap: 60px;
+    background: hsl(201deg 11% 66% / 26%);
+}
+.last-logo{
+    width: 50px;
+    margin-right: 100px;
+    margin-left: 145px;
+}
+.FAQs{
+    margin-bottom: 20px;
+}
+.privacy-policy{
+    margin-bottom: 20px;
+}
+.icon-red-social{
+    display: flex;
+    margin-left: 250px;
+}
+.i1{
+    width: 20px;
+    margin: 15px;
+}
+.i1:hover{
+    cursor: pointer;
+}
+.i2{
+    width: 20px;
+    margin: 15px;
+}
+.i2:hover{
+    cursor: pointer;
+}
+.i3{
+    width: 20px;
+    margin: 15px;
+}
+.i3:hover{
     cursor: pointer;
 }
