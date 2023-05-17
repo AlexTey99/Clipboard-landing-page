@@ -15,9 +15,29 @@ body{
     align-items: center;
     flex-direction: column;
 }
+@media screen and (max-width: 375px){
+    .main-container{
+        flex-direction: column;
+    }
+}
 .top-image-background{
     position: relative;
     margin: -7px;
+}
+@media screen and (max-width: 375px){
+    .top-image-background{
+        display: none;
+        
+    }
+}
+.background-reponci{
+    display: none;
+}
+@media screen and (max-width: 375px){
+    .background-reponci{
+        display: flex;
+        max-width: 100%;
+    }
 }
 .top-icon-logo{
     width: 120px;
@@ -27,13 +47,28 @@ body{
 .top-text{
     font-size: 50px;
 }
+@media screen and (max-width: 375px){
+    .top-text{
+        font-size: 23px;
+    }
+}
 .top-paragraph{
     width: 471px;
     text-align: center;
 }
+@media screen and (max-width: 375px){
+    .top-paragraph{
+        width: 270px;
+    }
+}
 .up-buttons{
     display: flex;
     margin-top: 30px;
+}
+@media screen and (max-width: 375px){
+    .up-buttons{
+        flex-direction: column;
+    }
 }
 .top-left-buttoms{
     margin-right: 10px;
@@ -42,6 +77,11 @@ body{
     width: 160px;
     height: 40px;
     background: hsl(171, 66%, 44%);
+}
+@media screen and (max-width: 375px){
+    .top-left-buttoms{
+        margin-bottom: 10px;
+    }
 }
 .top-left-buttoms:hover{
     cursor: pointer;
@@ -60,33 +100,78 @@ body{
     margin-top: 100px;
     font-size: 28px;
 }
+@media screen and (max-width: 375px){
+    .second-text{
+        font-size: 25px;
+    }
+}
 .second-paragraph{
     text-align: center;
     width: 550px;
+}
+@media screen and (max-width: 375px){
+    .second-paragraph{
+        width: 270px;
+    }   
 }
 .midle-container{
     display: flex;
     margin-top: 50px;
     width: 100vw;
 }
+@media screen and (max-width: 375px){
+    .midle-container{
+        flex-direction: column;
+    }
+}
 .tv-image{
     width: 680px;
+}
+@media screen and (max-width: 375px){
+    .tv-image{
+        width: 300px;
+        margin-left: 30px;
+    }
 }
 .three-titles{
     margin-left: 100px;
     margin-top: 60px;
 }
+@media screen and (max-width: 375px){
+    .three-titles{
+        margin-left: 0px;
+        text-align: center;
+    }   
+}
 .n1{
     width: 300px;
     margin-top: 10px;
+}
+@media screen and (max-width: 375px){
+    .n1{
+        width: 260px;
+        margin-left: 50px;
+    }    
 }
 .n2{
     width: 300px;
     margin-top: 10px;
 }
+@media screen and (max-width: 375px){
+    .n2{
+        margin-left: 50px;
+        width: 240px;
+    }    
+}
 .n3{
     width: 300px;
     margin-top: 10px;
+}
+@media screen and (max-width: 375px){
+    .n3{
+        width: 230px;
+        margin-left: 50px;
+    }    
 }
 
 .Cloud-Sync{
@@ -98,28 +183,90 @@ body{
 .third-tittle{
     margin-top: 100px;
 }
+@media screen and (max-width: 375px){
+    .third-tittle{
+        font-size: 25px;
+        margin-top: 120px;
+        width: 300px;
+        text-align: center;
+    }    
+}
 .third-paragraph{
     text-align: center;
     width: 530px;
+}
+@media screen and (max-width: 375px){
+    .third-paragraph{
+        width: 270px;
+    }    
 }
 .second-image{
     margin-top: 50px;
     width: 650px;
 }
-
+@media screen and (max-width: 375px){
+    .second-image{
+        width: 350px;
+    }
+}
 .logo-container{
     display: flex;
     text-align: center;
     margin-top: 100px;
 }
+@media screen and (max-width: 375px){
+    .logo-container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 375px){
+    .Supercharge{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 375px){
+    .Supercharge-paragraph{
+        text-align: center;
+        width: 250px;
+    }
+}
 .paragraph-blacklist{
     width: 300px;
+}
+@media screen and (max-width: 375px){
+    .paragraph-blacklist{
+        width: 280px;
+        margin-left: 25px;
+        margin-bottom: 50px;
+    }
 }
 .paragraph-text{
     width: 310px;
 }
+@media screen and (max-width: 375px){
+    .paragraph-text{
+        width: 290px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 375px){
+    .icon-textt{
+        margin-left: 8px;
+    }
+}
 .paragraph-preview{
     width: 310px;
+}
+@media screen and (max-width: 375px){
+    .paragraph-preview{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 375px){
+    .icon-previeww{
+        margin-left: -20px;
+    }
 }
 .firs-container{
     margin-right: 30px;
@@ -133,16 +280,38 @@ body{
     margin-top: 100px;
     gap: 70px;
 }
+@media screen and (max-width: 375px){
+    .web-container{
+        flex-direction: column;
+    }
+}
 .Clipboard{
     margin-top: 100px;
+}
+@media screen and (max-width: 375px){
+    .Clipboard{
+    font-size: 22px;
+    width: 250px;
+    text-align: center;
+    }
 }
 .end-paragraph{
     width: 520px;
     text-align: center;
 }
+@media screen and (max-width: 375px){
+    .end-paragraph{
+        width: 268px;
+    }
+}
 .end-buttoms{
     display: flex;
     margin-top: 30px;
+}
+@media screen and (max-width: 375px){
+    .end-buttoms{
+        flex-direction: column;
+    }
 }
 .end-left-buttom{
     border: none;
@@ -151,6 +320,11 @@ body{
     width: 160px;
     height: 40px;
     background: hsl(171, 66%, 44%);
+}
+@media screen and (max-width: 375px){
+    .end-left-buttom{
+        margin-bottom: 10px;
+    }
 }
 .end-left-buttom:hover{
     cursor: pointer;
@@ -174,10 +348,22 @@ body{
     gap: 60px;
     background: hsl(201deg 11% 66% / 26%);
 }
+@media screen and (max-width: 375px){
+    .last-container{
+        flex-direction: column;
+        text-align: center;
+        height: 520px;
+    }
+}
 .last-logo{
     width: 50px;
     margin-right: 100px;
     margin-left: 145px;
+}
+@media screen and (max-width: 375px){
+    .last-logo{
+        margin-left: 106px;
+    }
 }
 .FAQs{
     margin-bottom: 20px;
@@ -188,6 +374,12 @@ body{
 .icon-red-social{
     display: flex;
     margin-left: 250px;
+}
+@media screen and (max-width: 375px){
+    .icon-red-social{
+        margin-left: 0px;
+        justify-content: center;
+    }
 }
 .i1{
     width: 20px;
