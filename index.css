@@ -423,6 +423,7 @@ body {
         flex-direction: column;
         text-align: center;
         height: 520px;
+        font-size: 18px;
     }
 }
 
@@ -432,8 +433,14 @@ body {
 }
 
 .enlaces {
-    color: black;
+    color: #6d7174;
     text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+    .enlaces {
+        margin-bottom: -30px;
+    }
 }
 
 .last-logo {
