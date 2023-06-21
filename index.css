@@ -55,6 +55,7 @@ body {
 
 .top-text {
     font-size: 50px;
+    color: #474f55;
 }
 
 @media screen and (max-width: 375px) {
@@ -66,6 +67,7 @@ body {
 .top-paragraph {
     width: 471px;
     text-align: center;
+    color: #c2c3c5;
 }
 
 @media screen and (max-width: 375px) {
@@ -89,9 +91,12 @@ body {
     margin-right: 10px;
     border: none;
     border-radius: 20px;
+    color: white;
     width: 160px;
     height: 40px;
     background: hsl(171, 66%, 44%);
+    box-shadow: 7px 8px 8px 0px #c7f6e8;
+    border-bottom: 2px solid #199f8c;
 }
 
 @media screen and (max-width: 375px) {
@@ -107,9 +112,12 @@ body {
 .top-right-buttoms {
     border: none;
     border-radius: 20px;
+    color: white;
     width: 160px;
     height: 40px;
     background: hsl(233, 100%, 69%);
+    box-shadow: 7px 8px 8px 0px #e7e9f2;
+    border-bottom: 2px solid #5063e1;
 }
 
 .top-right-buttoms:hover {
@@ -119,6 +127,7 @@ body {
 .second-text {
     margin-top: 100px;
     font-size: 28px;
+    color: #474f55;
 }
 
 @media screen and (max-width: 375px) {
@@ -130,6 +139,7 @@ body {
 .second-paragraph {
     text-align: center;
     width: 550px;
+    color: #c2c3c5;
 }
 
 @media screen and (max-width: 375px) {
@@ -176,6 +186,11 @@ body {
 .n1 {
     width: 300px;
     margin-top: 10px;
+    color: #c2c3c5;
+}
+
+h2 {
+    color: #474f55;
 }
 
 @media screen and (max-width: 375px) {
@@ -188,6 +203,7 @@ body {
 .n2 {
     width: 300px;
     margin-top: 10px;
+    color: #c2c3c5;
 }
 
 @media screen and (max-width: 375px) {
@@ -200,6 +216,7 @@ body {
 .n3 {
     width: 300px;
     margin-top: 10px;
+    color: #c2c3c5;
 }
 
 @media screen and (max-width: 375px) {
@@ -219,6 +236,7 @@ body {
 
 .third-tittle {
     margin-top: 100px;
+    color: #474f55;
 }
 
 @media screen and (max-width: 375px) {
@@ -232,6 +250,7 @@ body {
 
 .third-paragraph {
     text-align: center;
+    color: #c2c3c5;
     width: 530px;
 }
 
@@ -345,6 +364,7 @@ body {
 
 .Clipboard {
     margin-top: 100px;
+    color: #474f55;
 }
 
 @media screen and (max-width: 375px) {
@@ -358,6 +378,7 @@ body {
 .end-paragraph {
     width: 520px;
     text-align: center;
+    color: #c2c3c5;
 }
 
 @media screen and (max-width: 375px) {
@@ -381,9 +402,12 @@ body {
     border: none;
     border-radius: 20px;
     margin-right: 10px;
+    color: white;
     width: 160px;
     height: 40px;
     background: hsl(171, 66%, 44%);
+    box-shadow: 7px 8px 8px 0px #c7f6e8;
+    border-bottom: 2px solid #199f8c;
 }
 
 @media screen and (max-width: 375px) {
@@ -399,9 +423,12 @@ body {
 .end-rigth-buttom {
     border: none;
     border-radius: 20px;
+    color: white;
     width: 160px;
     height: 40px;
     background: hsl(233, 100%, 69%);
+    box-shadow: 7px 8px 8px 0px #e7e9f2;
+    border-bottom: 2px solid #5063e1;
 }
 
 .end-rigth-buttom:hover {
