@@ -27,6 +27,7 @@ body {
 .top-image-background {
     position: relative;
     margin: -7px;
+    width: 100%;
 }
 
 @media screen and (max-width: 375px) {
@@ -464,6 +465,11 @@ h2 {
     text-decoration: none;
 }
 
+.enlaces:hover {
+    cursor: pointer;
+    color: #2abaa8;
+}
+
 @media screen and (max-width: 375px) {
     .enlaces {
         margin-bottom: -30px;
@@ -509,6 +515,7 @@ h2 {
 
 .i1:hover {
     cursor: pointer;
+    filter: invert(53%) sepia(99%) saturate(294%) hue-rotate(123deg) brightness(94%) contrast(98%);
 }
 
 .i2 {
@@ -518,6 +525,7 @@ h2 {
 
 .i2:hover {
     cursor: pointer;
+    filter: invert(53%) sepia(99%) saturate(294%) hue-rotate(123deg) brightness(94%) contrast(98%);
 }
 
 .i3 {
@@ -527,4 +535,5 @@ h2 {
 
 .i3:hover {
     cursor: pointer;
+    filter: invert(53%) sepia(99%) saturate(294%) hue-rotate(123deg) brightness(94%) contrast(98%);
 }
