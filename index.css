@@ -23,6 +23,7 @@ body {
 @media screen and (max-width: 375px) {
     .main-container {
         flex-direction: column;
+        width: 100%;
     }
 }
 
@@ -447,6 +448,7 @@ h2 {
 
 @media screen and (max-width: 375px) {
     .last-container {
+        align-items: center;
         flex-direction: column;
         text-align: center;
         height: 520px;
@@ -486,7 +488,7 @@ h2 {
 
 @media screen and (max-width: 375px) {
     .last-logo {
-        margin-left: 106px;
+        margin: 0px;
     }
 }
 
