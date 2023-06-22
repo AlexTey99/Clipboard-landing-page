@@ -461,7 +461,9 @@ h2 {
 }
 
 .enlaces {
+    display: flex;
     color: #6d7174;
+    width: 95px;
     text-decoration: none;
 }
 
@@ -498,7 +500,8 @@ h2 {
 
 .icon-red-social {
     display: flex;
-    margin-left: 250px;
+    width: 100%;
+    justify-content: end;
 }
 
 @media screen and (max-width: 375px) {
