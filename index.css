@@ -481,6 +481,8 @@ h2 {
 @media screen and (max-width: 375px) {
     .enlaces {
         margin-bottom: -30px;
+        justify-content: center;
+        width: 100%;
     }
 }
 
