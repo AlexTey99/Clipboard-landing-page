@@ -437,7 +437,7 @@ h2 {
 
 .last-container {
     display: flex;
-    padding: 50px;
+    padding: 50px 100px 50px 100px;
     margin-top: 110px;
     height: 150px;
     width: 100%;
@@ -482,7 +482,6 @@ h2 {
 .last-logo {
     width: 50px;
     margin-right: 100px;
-    margin-left: 145px;
 }
 
 @media screen and (max-width: 375px) {
